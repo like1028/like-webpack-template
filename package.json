@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/like1028/like-webpack-template.git"
+    "url": "git+https://github.com/likeaixi/like-webpack-template.git"
   },
   "keywords": [
     "webpack",
@@ -20,9 +20,9 @@
   "author": "like (likeaixi@gmail.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/like1028/like-webpack-template/issues"
+    "url": "https://github.com/likeaixi/like-webpack-template/issues"
   },
-  "homepage": "https://github.com/like1028/like-webpack-template#readme",
+  "homepage": "https://github.com/likeaixi/like-webpack-template#readme",
   "devDependencies": {
     "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^0.28.11",
