@@ -2,7 +2,7 @@
  *@fileName webpack.comm.config.js
  *@author   Like (likeaixi@gmail.com)
  *@date     2018/3/29
- *@disc     能用配置
+ *@disc     通用配置
  */
 const path = require('path');
 const webpack = require('webpack');
