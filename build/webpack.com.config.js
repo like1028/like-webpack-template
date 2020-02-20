@@ -10,8 +10,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin'); //html 打包
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin'); //分离 css
 const AutoPreFixer = require('autoprefixer');
-const Glob = require('glob');
-const PurifyCSSPlugin = require('purifycss-webpack');  //消除未使用的 CSS
+
 module.exports = {
     entry: {
         app: ['./src/index.js']
@@ -118,9 +117,6 @@ module.exports = {
             template: 'index.html'
         }),
         new ExtractTextPlugin("css/index.css"), //这里的 css/index.css 是分离后的路径
-        AutoPreFixer,
-        new PurifyCSSPlugin({
-            paths: Glob.sync(path.join(__dirname, 'src/*.html'))
-        })
+        AutoPreFixer
     ]
 };
